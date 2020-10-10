@@ -6,7 +6,7 @@ __pycache__/
 # C extensions
 *.so
 .idea/
-
+datasets/
 # Distribution / packaging
 .Python
 build/
@@ -128,3 +128,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.output/

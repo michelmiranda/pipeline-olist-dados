@@ -18,6 +18,8 @@ services:
       - EXECUTOR=Local
     volumes:
       - './dags:/usr/local/airflow/dags'
+      - './spark_jobs:/usr/local/airflow/spark_jobs'
+      - './scripts:/usr/local/airflow/scripts'
       - './requirements.txt:/requirements.txt'
     ports:
       - '8080:8080'
